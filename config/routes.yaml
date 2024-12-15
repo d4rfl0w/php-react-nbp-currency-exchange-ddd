@@ -1,0 +1,19 @@
+# config/routes.yaml
+
+exchange_rates:
+    path: /api/exchange-rates/{date}
+    controller: App\UI\Controller\ExchangeRatesController::getExchangeRates
+    methods: [GET]
+
+setupcheck:
+    path: /api/setup-check
+    controller: App\UI\Controller\DefaultController::setupCheck
+
+index:
+    path: /{wildcard}
+    defaults: {
+        _controller: App\UI\Controller\DefaultController::index
+    }
+    requirements:
+        wildcard: .*
+
