@@ -21,7 +21,18 @@ The project follows Domain-Driven Design (DDD) principles and includes unit, fun
 4. Run both the backend and frontend applications
 
 ### Directory Structure:
-![image](https://github.com/user-attachments/assets/b02fe87f-1499-4b52-b181-42e7804abcce)
+- config/<br>
+- cypress/<br>
+- src/<br>
+    - App/<br>
+        - Application/<br>
+        - Domain/<br>
+        - Infrastructure/<br>
+        - UI/<br>
+- templates/<br>
+- tests/<br>
+    - Unit/<br>
+    - Functional/<br>
 
 ### License:
 MIT License
