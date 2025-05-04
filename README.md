@@ -1,37 +1,27 @@
 # php-react-nbp-currency-exchange-ddd
-Aplikacja Php + React.js umożliwiająca pobieranie kursów walut z Narodowego Banku Polskiego (NBP). Projekt wykorzystuje zasady Domain-Driven Design (DDD) oraz posiada testy jednostkowe, funkcjonalne i testy e2e za pomocą Cypress.
+A PHP + React.js application for retrieving currency exchange rates from the National Bank of Poland (NBP).  
+The project follows Domain-Driven Design (DDD) principles and includes unit, functional, and end-to-end tests using Cypress.
 
-### Funkcje:
-- Pobieranie i wyświetlanie aktualnych kursów walut z NBP
-- Zastosowanie wzorców DDD w architekturze aplikacji
-- Testy jednostkowe, funkcjonalne i end-to-end za pomocą Cypress
+### Features:
+- Fetch and display current exchange rates from NBP
+- Domain-Driven Design (DDD) application architecture
+- Unit, functional, and end-to-end testing with Cypress
 
-### Technologie:
-- PHP
-- React.js
-- Symfony (dla części backendowej)
-- PHPUnit (do testów jednostkowych)
-- Cypress (do testów end-to-end)
+### Technologies:
+- PHP  
+- React.js  
+- Symfony (backend)  
+- PHPUnit (unit testing)  
+- Cypress (end-to-end testing)
 
-### Jak uruchomić:
-1. Sklonuj repozytorium
-2. Zainstaluj zależności PHP i JavaScript
-3. Skonfiguruj aplikację
-4. Uruchom aplikację backendową i frontendową
+### How to Run:
+1. Clone the repository
+2. Install PHP and JavaScript dependencies
+3. Configure the application
+4. Run both the backend and frontend applications
 
-### Struktura katalogów:
-- config/
-- cypress/
-- src/
-    - App/
-        - Application/
-        - Domain/
-        - Infrastructure/
-        - UI/
-- templates/
-- tests/
-    - Unit/
-    - Functional/
+### Directory Structure:
+![image](https://github.com/user-attachments/assets/b02fe87f-1499-4b52-b181-42e7804abcce)
 
-### Licencja:
+### License:
 MIT License
